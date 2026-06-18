@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marco Castro | CV Web</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+<header>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+
+    <!-- Logo / nombre -->
+    <a class="navbar-brand fw-bold" href="#inicio">Marco Castro</a>
+
+    <!-- Botón hamburguesa (solo en mobile) -->
+    <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuPrincipal"
+        aria-controls="menuPrincipal"
+        aria-expanded="false"
+        aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links del menú -->
+    <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#educacion">Educación</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+        </ul>
+    </div>
+    <!-- Toggle modo oscuro -->
+<button id="toggleModo" class="btn btn-outline-light btn-sm ms-3">
+    <i class="bi bi-moon-fill"></i>
+</button>
+    </div>
+</nav>
+</header>
+
+    <!-- HERO -->
+
+    <main>
+
+        <section id="inicio">
+
+            <article>
+                <!-- FOTO -->
+        <img 
+            src="static/img/Foto_Marco.jpeg" 
+            alt="Foto de perfil Marco Castro"
+            class="foto-perfil mb-4">
+
+                <h1>Marco Castro</h1>
+
+                <h2>Profesor de Educación Física</h2>
+                <a href="static/img/titulo.jpg" target="_blank">
+                Ver título
+</a>
+                <h2>Intérprete Médico</h2>
+                <a href="static/docs/HCIA_Marco.pdf" target="_blank">
+                Ver certificado
+</a>
+                <h2>Full Stack JavaScript Trainee</h2>
+
+                <p>
+                    Profesional de la educación con experiencia en liderazgo,
+                    comunicación efectiva y transición al área tecnológica. 
+                </p>
+
+<a href="https://www.linkedin.com/in/marco-c-954760364/ 
+target="_blank" 
+class="btn btn-primary">
+    <i class="bi bi-linkedin me-2"></i>LinkedIn
+</a>
+
+<a href="https://github.com/Mancoantonio" 
+target="_blank" 
+class="btn btn-success">
+    <i class="bi bi-github me-2"></i>GitHub
+</a>
+
+            </article>
+
+        </section>
+
+        <!-- SOBRE MI -->
+
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+
+            <p>
+
+                Profesional con más de diez años de experiencia
+                en educación, liderazgo y gestión de grupos.
+
+                Actualmente en proceso de transición al área de
+Tecnologías de la Información, con formación en programación,
+análisis de datos y desarrollo web.
+<li>Experiencia en aprendizaje de Aprendizaje por refuerzo a partir de
+retroalimentación humana (RLHF), Python, JavaScript, HTML, CSS y
+manejo de datos.</li>
+<li>Destaco por mi capacidad de aprendizaje
+continuo, trabajo en equipo, pensamiento analítico y adaptación a
+nuevos entornos tecnológicos.</li>
+
+            </p>
+
+        </section>
+
+        <!-- EXPERIENCIA -->
+
+<section id="experiencia">
+
+    <h2>Experiencia</h2>
+
+    <div class="accordion" id="accordionExperiencia">
+
+        <!-- Item 1 -->
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#exp1"
+                    aria-expanded="true"
+                    aria-controls="exp1">
+                    Intérprete Médico Online (Remoto)
+                    <span class="badge bg-success ms-3">2026 - Actualidad</span>
+                </button>
+            </h3>
+            <div id="exp1" class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExperiencia">
+                <div class="accordion-body">
+                    <p class="text-muted mb-2">ICCBPO – Martti Health | Abril 2026 – Hasta la fecha</p>
+                    <ul>
+                        <li>Proporciono interpretación en tiempo real entre profesionales de la salud y pacientes, garantizando una comunicación precisa y culturalmente apropiada.</li>
+                        <li>Facilito la comunicación en consultas médicas, situaciones de emergencia y diversos servicios de atención sanitaria.</li>
+                        <li>Mantengo estrictos estándares de confidencialidad y cumplimiento de normativas de privacidad en el ámbito de la salud.(HIPAA)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#exp2"
+                    aria-expanded="false"
+                    aria-controls="exp2">
+                    Profesor de Envejecimiento Saludable
+                    <span class="badge bg-success ms-3">2026 - Actualidad</span>
+                </button>
+            </h3>
+            <div id="exp2" class="accordion-collapse collapse"
+                data-bs-parent="#accordionExperiencia">
+                <div class="accordion-body">
+                    <p class="text-muted mb-2">ONG Tierra de Oportunidades | Enero 2026 – Hasta la fecha</p>
+                    <ul>
+                        <li>Ofrezco a la comunidad clases gratuitas de envejecimiento activo, utilizando equipos especializados.</li>
+                        <li>Monitoreo continuo de la frecuencia cardíaca mediante monitores de ritmo cardíaco.</li>
+                        <li>Proyecto Gratuito, ONG con fondos del Gobiernos Regional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#exp3"
+                    aria-expanded="false"
+                    aria-controls="exp3">
+                    Profesor de Educación Física
+                    <span class="badge bg-secondary ms-3">2017 - 2025</span>
+                </button>
+            </h3>
+            <div id="exp3" class="accordion-collapse collapse"
+                data-bs-parent="#accordionExperiencia">
+                <div class="accordion-body">
+                    <p class="text-muted mb-2">Liceo Técnico Profesional Mannheim | 2017 – 2025</p>
+                    <ul>
+                        <li>Se impartieron clases de Educación Física en los niveles de educación preescolar, básica y media.</li>
+                        <li>Múltiples talleres deportivos tales como Básquetbol, Brazilian Jiu Jitsu y Halterofilia, entre otros</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#exp4"
+                    aria-expanded="false"
+                    aria-controls="exp4">
+                    Profesor de Educación Física – Programa Vida Sana
+                    <span class="badge bg-secondary ms-3">2015 - 2016</span>
+                </button>
+            </h3>
+            <div id="exp4" class="accordion-collapse collapse"
+                data-bs-parent="#accordionExperiencia">
+                <div class="accordion-body">
+                    <p class="text-muted mb-2">MINSAL | 2015 – 2016</p>
+                    <ul>
+                        <li>Se implementaron clases de actividad física para 200 personas sedentarias.</li>
+                        <li>Equipo multidisciplinario a cargo de población con pre-hipertensión, pre-diabetes y/o perímetro de cintura aumentada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- EDUCACION -->
+
+        <section id="educacion">
+
+            <h2>Educación</h2>
+
+            <article>
+
+                <h3>PUCV</h3>
+
+                <p>Licenciado en Educación</p>
+
+            </article>
+
+            <article>
+
+                <h3>PUCV</h3>
+
+                <p>Profesor de Educación Física</p>
+
+            </article>
+
+            <article>
+
+                <h3>UTFSM</h3>
+
+                <p>Técnico en Ciencias de Datos (Congelado)</p>
+
+            </article>
+
+            <article>
+
+                <h3>ISEG</h3>
+
+                <p>JavaScript Full Stack Trainee (en curso)</p>
+
+            </article>
+
+        </section>
+
+        <!-- SKILLS -->
+
+<section id="skills">
+
+    <h2>Habilidades</h2>
+
+    <div class="row">
+
+        <!-- COLUMNA IZQUIERDA: Técnicas -->
+        <div class="col-md-6">
+
+            <h4 class="mb-3">Habilidades Técnicas</h4>
+
+            <ul class="list-unstyled">
+                <li class="mb-2">
+                    <i class="bi bi-filetype-py text-primary me-2"></i>Python
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-filetype-js text-warning me-2"></i>JavaScript
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-filetype-html text-danger me-2"></i>HTML5
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-filetype-css text-info me-2"></i>CSS3
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-git text-danger me-2"></i>Git
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-github text-dark me-2"></i>GitHub
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-filetype-json text-success me-2"></i>JSON
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-file-earmark-excel text-success me-2"></i>Microsoft Excel
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-table text-success me-2"></i>Google Sheets
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-bar-chart-line text-primary me-2"></i>Análisis de datos
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-lightbulb text-warning me-2"></i>Resolución de problemas
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- COLUMNA DERECHA: Transferibles -->
+        <div class="col-md-6">
+
+            <h4 class="mb-3">Habilidades Transferibles</h4>
+
+            <ul class="list-unstyled">
+                <li class="mb-2">
+                    <i class="bi bi-chat-dots text-primary me-2"></i>Comunicación efectiva
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-file-earmark-text text-secondary me-2"></i>Presentación de informes
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-people text-danger me-2"></i>Liderazgo de equipos
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-kanban text-success me-2"></i>Gestión de proyectos
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-diagram-3 text-info me-2"></i>Pensamiento analítico
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-book text-warning me-2"></i>Aprendizaje autónomo
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-lightning text-danger me-2"></i>Trabajo bajo presión
+                </li>
+                <li class="mb-2">
+                    <i class="bi bi-calendar-check text-primary me-2"></i>Organización y planificación
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- CONTACTO -->
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>Email</p>
+
+            <p>Teléfono</p>
+
+            <p>Valparaíso, Chile</p>
+
+            <p>LinkedIn</p>
+
+            <p>GitHub</p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Marco Castro
+
+        </p>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS propio -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu JS propio -->
+    <script src="script.js"></script>  ← agrega esta línea
+
+</body>
+</body>
+
+</html>
